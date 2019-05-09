@@ -5,31 +5,30 @@ html{
 	padding-bottom: 25px;
 }
 
-body{
-	background-color: #F0F1F1;
-}
 
 header{
 	margin-left: auto;
 	margin-right: auto;
 }
 
-nav{
-	display: inline;
+nav ul{
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 20px;
 }
 
 #sec1{
 	width:  100%;
+	margin: auto;
 }
 
-.column{
+#sec2{
 	border: 1px solid black;
-	width: 33.33%;
 	display: flex ;
 	flex-direction: row ;
 	justify-content: space-around;
 
-}
-.column:first-child{
-	margin: 0;
 }
