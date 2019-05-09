@@ -23,9 +23,12 @@ nav{
 }
 
 .column{
+	border: 1px solid black;
 	width: 33.33%;
-    float: left;
-    margin-left: 20px;
+	display: flex ;
+	flex-direction: row ;
+	justify-content: space-around;
+
 }
 .column:first-child{
 	margin: 0;
